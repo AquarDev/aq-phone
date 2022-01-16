@@ -1,0 +1,28 @@
+html body {
+    background-color: transparent;
+    user-select: none;
+}
+
+.phone > .base {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 19.7rem;
+    margin-right: 5rem;
+    margin-bottom: 2.5rem;
+    z-index: 10;
+}
+
+.phone > .background {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 19rem;
+    height: 42rem;
+    margin-right: 5.2rem;
+    margin-bottom: 2.7rem;
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://cdn.wallpapersafari.com/15/38/SAyGzl.jpg);
+}
