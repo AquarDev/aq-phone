@@ -15,7 +15,7 @@ server_scripts {
 
 ui_page 'html/index.html'
 
-files{
+files {
     'html/*',
     'html/img/*',
     'html/script/*',

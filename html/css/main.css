@@ -1,6 +1,20 @@
 html body {
     background-color: transparent;
     user-select: none;
+}::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.phone::-webkit-scrollbar {
+    display: none;
+  }
+
+.phone {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -50rem;
 }
 
 .phone > .base {
@@ -25,4 +39,24 @@ html body {
     background-size: cover;
     background-position: center;
     background-image: url(https://cdn.wallpapersafari.com/15/38/SAyGzl.jpg);
+}
+
+.phone > .use {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 19rem;
+    height: 42rem;
+    margin-right: 5.2rem;
+    margin-bottom: 2.7rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.phone > .use > .buttons > .home {
+    position: absolute;
+    width: 6%;
+    margin-left: 44%;
+    bottom: 0;
+    margin-bottom: 7%;
 }
