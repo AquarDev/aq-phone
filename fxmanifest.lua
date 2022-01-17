@@ -21,3 +21,7 @@ files {
     'html/script/*',
     'html/css/*'
 }
+
+dependencies {
+    'mysql-async'
+}
