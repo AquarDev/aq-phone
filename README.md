@@ -1,3 +1,3 @@
 # aq-phone
 
-See the projects tab for status
+See the projects tab for status 
